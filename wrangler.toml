@@ -1,8 +1,8 @@
 name = "drn"
-main = "./dist/_worker.js"
-compatibility_date = "2025-01-08"
-workers_dev = true
-assets = { directory = "./dist" }
+compatibility_date = "2026-01-08"
+
+[assets]
+directory = "./dist"
 
 [observability]
 enabled = true
