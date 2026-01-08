@@ -1,0 +1,9 @@
+name = "drn"
+main = "./dist/_worker.js"
+compatibility_date = "2025-01-08"
+
+[observability]
+enabled = true
+
+# Environment variables (secrets should be set via Cloudflare dashboard or wrangler secret put)
+# Add your RESEND_API_KEY as a secret using: wrangler secret put RESEND_API_KEY
