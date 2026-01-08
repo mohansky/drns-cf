@@ -32,6 +32,6 @@ export default defineConfig({
   },
 
   adapter: cloudflare({
-    imageService: "compile",
+    imageService: "passthrough",
   }),
 });
